@@ -3,7 +3,7 @@ Contributors: heymehedi
 Tags: performance, audit, database, optimization, site health
 Requires at least: 5.8
 Tested up to: 6.8
-Stable tag: 0.0.7
+Stable tag: 0.0.8
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -36,13 +36,6 @@ Whether you're a developer, site owner, or agency, BoltAudit gives you visibilit
 - Responsive, accessible UI with performance optimizations
 - WooCommerce Overview with product counts and performance insights (HPOS, cart fragments, and more)
 
-== Screenshots ==
-
-1. Plugin impact breakdown  
-2. Post type & metadata overview  
-3. Database insights & bloat report  
-4. Server and WordPress configuration  
-5. Abandonment and usage detection  
 
 == Installation ==
 
@@ -69,6 +62,11 @@ Yes. BoltAudit was built for heavy-duty environments, including eCommerce, LMS, 
 Total DB size, number of tables (empty vs. used), autoloaded options, transients, and custom tables to help you spot bloat quickly.
 
 == Changelog ==
+
+= 0.0.8 – 2025-09-05 =  
+* Introduced Database Details Page
+* Introduced WooCommerce Details Page
+* Fix uncaught error
 
 = 0.0.7 – 2025-08-08 =  
 * Introduced Post Details page with orphaned metadata and orphaned post record reports  
@@ -106,5 +104,7 @@ Total DB size, number of tables (empty vs. used), autoloaded options, transients
 
 == Upgrade Notice ==
 
-= 0.0.7 =  
-Added a detailed Post Details page for orphan data insights and fixed environment user-ID retrieval.
+= 0.0.8 =  
+* Introduced Database Details Page
+* Introduced WooCommerce Details Page
+* Fix uncaught error

@@ -7,7 +7,7 @@ use BoltAudit\WpMVC\App;
 /**
  * Plugin Name:       BoltAudit – Performance Audit Advisor
  * Description:       Get a clear, no-risk performance review of your WordPress site. BoltAudit scans for common slowdowns and gives smart, easy-to-follow suggestions — without touching your site or installing bloat.
- * Version:           0.0.7
+ * Version:           0.0.8
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Tested up to:      6.8

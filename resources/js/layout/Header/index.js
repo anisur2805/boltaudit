@@ -49,7 +49,7 @@ const Header = (props) => {
           />
            <div className="ba-dashboard__content__overview__badge">
             <span className="ba-dashboard__content__overview__badge__single inactive">
-              v0.0.7(beta)
+              v0.0.8(beta)
             </span>
           </div>
         </Link>
